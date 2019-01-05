@@ -1,0 +1,18 @@
+.app-header {
+    height: 300px;
+    max-width: 600px;
+    margin: 0 auto;
+    background-image: url("../images/pink_header.jpg");
+    background-size:     cover;
+    background-repeat:   no-repeat;
+    background-position: center center;
+}
+
+.header-container {
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+body {
+    background-color: whitesmoke;
+}
