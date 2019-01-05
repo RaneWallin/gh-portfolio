@@ -1,4 +1,4 @@
-import "./PortfolioSnapshot.css";
+import "../css/PortfolioSnapshot.css";
 import React from "react";
 
 const PortfolioSnapshot = props => {
