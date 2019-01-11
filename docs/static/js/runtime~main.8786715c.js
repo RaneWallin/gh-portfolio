@@ -72,7 +72,7 @@
     (f.o = function(e, r) {
       return Object.prototype.hasOwnProperty.call(e, r);
     }),
-    (f.p = "/");
+    (f.p = "/gh-portfolio/");
   var i = (window.webpackJsonp = window.webpackJsonp || []),
     l = i.push.bind(i);
   (i.push = r), (i = i.slice());
@@ -80,4 +80,4 @@
   var p = l;
   t();
 })([]);
-//# sourceMappingURL=runtime~main.229c360f.js.map
+//# sourceMappingURL=runtime~main.8786715c.js.map
