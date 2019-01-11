@@ -1,12 +1,23 @@
+@import 'mixins.scss';
+@import "variables.scss";
+@import url('https://fonts.googleapis.com/css?family=Vibur');
+
 .app-header {
     height: 300px;
     max-width: 600px;
     margin: 0 auto;
     background-image: linear-gradient(to bottom, transparent, #DAC5B6),url("../images/pink_header.jpg");
-
     background-size:     cover;
     background-repeat:   no-repeat;
     background-position: center center;
+}
+
+.header-txt {
+    padding: 30px 10px;
+    font-size: 6rem;
+    color: #F2E3E7;
+    font-family: 'Vibur', cursive;
+    @include strokeText(1px, #86435D, 4px 5px 5px $shadow-color);
 }
 
 .header-container {

@@ -1,0 +1,18 @@
+.footainer {
+  color: white;
+  display: flex;
+  align-content: center;
+  align-items: center;
+  justify-content: center;
+  height: 30px;
+  max-width: 600px;
+  margin: 0 auto;
+  text-align: center;
+  background: linear-gradient(#D3AC8C, #8E6039);
+  a {
+    color: #F9DCC5;
+    &:hover {
+      color: #86435D;
+    }
+  }
+}

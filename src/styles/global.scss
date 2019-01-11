@@ -1,0 +1,11 @@
+html {
+  font-size: 62.5%;
+}
+
+a {
+  color:  #3F0B1A;
+  text-decoration: none;
+  &:hover {
+    color: #D3AC8C;
+  }
+}

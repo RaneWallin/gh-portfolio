@@ -1,4 +1,5 @@
-import "../css/TagCloud.css";
+import "../styles/TagCloud.scss";
+
 import React from "react";
 
 const TagCloud = props => {

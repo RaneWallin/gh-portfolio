@@ -1,0 +1,9 @@
+// Based on: https://css-tricks.com/adding-stroke-to-web-text/
+@mixin strokeText($thicc, $color, $extra: 0px 0px 0 #000) {
+  text-shadow:
+  -$thicc -$thicc 0 $color,
+  $thicc -$thicc 0 $color,
+  -$thicc $thicc 0 $color,
+  $thicc $thicc 0 $color,
+  $extra;
+}
