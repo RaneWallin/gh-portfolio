@@ -16,6 +16,7 @@
   "eslintConfig": {
     "extends": "react-app"
   },
+  "build": "react-scripts build && rm -rf docs && mv build docs",
   "browserslist": [
     ">0.2%",
     "not dead",
