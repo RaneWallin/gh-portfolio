@@ -2,7 +2,8 @@
     height: 300px;
     max-width: 600px;
     margin: 0 auto;
-    background-image: url("../images/pink_header.jpg");
+    background-image: linear-gradient(to bottom, transparent, #DAC5B6),url("../images/pink_header.jpg");
+
     background-size:     cover;
     background-repeat:   no-repeat;
     background-position: center center;

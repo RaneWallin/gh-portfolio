@@ -1,5 +1,6 @@
 .tc-container {
     max-width: 600px;
-    margin: 15px auto;
-    background-color: darksalmon;
+    margin: 0 auto;
+    height: 150px;
+    background-color: #DAC5B6;
 }
