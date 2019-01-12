@@ -1,6 +1,11 @@
+@import "variables";
+
 .apptainer {
   //border-radius: 10px;
   //border: 1px solid #8F6E4F;
-  max-width: 600px;
+  max-width: $max-width;
   margin: 15px auto;
+  @media ($tablet) {
+    margin: 0 10%;
+  }
 }

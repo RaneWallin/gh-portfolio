@@ -1,4 +1,4 @@
-import "../styles/PortfolioContainer.css";
+import "../styles/PortfolioContainer.scss";
 import React from "react";
 import PortfolioSnapshot from "./PortfolioSnapshot";
 

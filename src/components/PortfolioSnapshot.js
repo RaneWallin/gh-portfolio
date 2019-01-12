@@ -5,7 +5,7 @@ const PortfolioSnapshot = props => {
   return (
     <div className="ui card">
       <div className="image">
-        <img src={require("../images/thumbnail.png")} alt="thumbnail" />
+        <img src={require("../images/thumbnail.jpg")} alt="thumbnail" />
       </div>
       <div className="content">
         <a href="index.html" className="header">

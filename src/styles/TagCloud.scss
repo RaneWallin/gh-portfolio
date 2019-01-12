@@ -2,7 +2,7 @@
 @import 'variables.scss';
 @import url('https://fonts.googleapis.com/css?family=Vibur');
 .tagtainer {
-    max-width: 600px;
+    max-width:$max-width;
     margin: 0 auto;
     padding: 15px;
     font-size: 5rem;
@@ -11,7 +11,7 @@
   h2 {
     font-size: 3.6rem;
     font-family: 'Vibur', cursive;
-    color: #ECD2E9;
+    color: $heading-color;
     @include strokeText(1px, black, 3px 3px 3px black);
   }
   .tags {
@@ -24,9 +24,12 @@
     border: 1px dashed $shadow-color;
     i {
       margin: 15px;
-      color: #ECD2E9;
+      color: $heading-color;
       @include strokeText(1px, #86435D, 3px 3px 3px black);
       //text-shadow: 3px 3px 3px dimgrey;
     }
+  }
+  @media ($tablet) {
+    margin: 0 10%;
   }
 }

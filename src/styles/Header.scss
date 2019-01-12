@@ -3,29 +3,34 @@
 @import url('https://fonts.googleapis.com/css?family=Vibur');
 
 .app-header {
-    height: 300px;
-    max-width: 600px;
+    height: auto;
+    max-width: $max-width;
     margin: 0 auto;
     background-image: linear-gradient(to bottom, transparent, #DAC5B6),url("../images/pink_header.jpg");
     background-size:     cover;
     background-repeat:   no-repeat;
     background-position: center center;
-    border-radius: 10px 10px 0 0 ;
-}
-
-.header-txt {
-    padding: 30px 10px;
-    font-size: 6rem;
-    color: #F2E3E7;
-    font-family: 'Vibur', cursive;
-    @include strokeText(1px, #86435D, 4px 5px 5px $shadow-color);
-}
-
-.header-container {
-    max-width: 600px;
-    margin: 0 auto;
-}
-
-body {
-    background-color: whitesmoke;
+    //border: 1px solid green;
+    border-radius: 10px 10px 0 0;
+    .header-container {
+        max-width: $max-width;
+        margin: 0 auto;
+        h1 {
+            padding: 10px;
+            font-size: 6rem;
+            color: $heading-color;
+            font-family: 'Vibur', cursive;
+            @include strokeText(1px, #86435D, 4px 5px 5px $shadow-color);
+        }
+        p {
+            padding: 0 15px 20px 15px;
+            font-size: 2.6rem;
+            color: $text-color;
+            font-weight: bold;
+            text-shadow: 2px 2px 2px $heading-color;
+        }
+    }
+    @media ($tablet) {
+        margin: 0 10%;
+    }
 }

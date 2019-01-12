@@ -16,7 +16,7 @@ importScripts(
 );
 
 importScripts(
-  "/gh-portfolio/precache-manifest.a32394c4510534c504e2ba27e53e2c24.js"
+  "/gh-portfolio/precache-manifest.f39cb7dee6e489792ff010e17ae52f3c.js"
 );
 
 workbox.clientsClaim();
