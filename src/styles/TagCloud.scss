@@ -4,7 +4,7 @@
 .tagtainer {
     max-width:$max-width;
     margin: 0 auto;
-    padding: 15px;
+    padding: 20px;
     font-size: 5rem;
     height: auto;
     background-color: #DAC5B6;
@@ -28,8 +28,5 @@
       @include strokeText(1px, #86435D, 3px 3px 3px black);
       //text-shadow: 3px 3px 3px dimgrey;
     }
-  }
-  @media ($tablet) {
-    margin: 0 10%;
   }
 }

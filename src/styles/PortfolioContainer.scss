@@ -5,8 +5,5 @@
     max-width: $max-width;
     min-height: 400px;
     background: linear-gradient(#DAC5B6, #D3AC8C);
-    padding: 30px 10px;
-    @media ($tablet) {
-        margin: 0 10%;
-    }
+    padding: 30px 20px;
 }

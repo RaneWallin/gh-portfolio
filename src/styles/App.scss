@@ -4,8 +4,6 @@
   //border-radius: 10px;
   //border: 1px solid #8F6E4F;
   max-width: $max-width;
+  width: 90%;
   margin: 15px auto;
-  @media ($tablet) {
-    margin: 0 10%;
-  }
 }
