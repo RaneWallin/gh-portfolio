@@ -1,6 +1,0 @@
-title: gh-portfolio
-short-description: A template-based developer portfolio
-tags: React, Javascript, HTML5, Sass
-long-description: The gh-portfolio project is a customizable developer portfolio that can be easily extended with templated project files for each project the developer wishes to add to their portfolio.
-live-site: http://blasph.me/gh-portfolio/
-repo: https://github.com/RaneWallin/gh-portfolio
