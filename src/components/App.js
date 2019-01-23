@@ -7,18 +7,15 @@ import Header from "./Header";
 import TagCloud from "./TagCloud";
 import PortfolioContainer from "./PortfolioContainer";
 import Footer from "./Footer";
+import { BrowserRouter as Router } from "react-router-dom";
+import Navigation from "../Navigation";
 
-class App extends Component {
-  render() {
-    return (
-      <div className="apptainer">
-        <Header />
-        <TagCloud />
-        <PortfolioContainer />
-        <Footer />
-      </div>
-    );
-  }
-}
+const App = () => {
+  return (
+    <Router>
+      <Navigation />
+    </Router>
+  );
+};
 
 export default App;
